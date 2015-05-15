@@ -1,2 +1,2 @@
 all:
-	~/tools/buildapp --load build.lisp --entry main --output onchange
+	~/tools/buildapp --asdf-tree ~/quicklisp --load cl-onchange.lisp --entry main --output onchange
